@@ -9,6 +9,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 img {
   display: block;
@@ -17,8 +19,8 @@ img {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .page-header {
   background-color: #fff;
@@ -26,12 +28,12 @@ img {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
 }
 .header-nav {
   color: #434455;
   display: flex;
   align-items: center;
-  margin: 0 auto;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -90,6 +92,7 @@ img {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  max-width: 153px;
 }
 
 .address-link {
@@ -100,6 +103,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration-line: none;
+  padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {
