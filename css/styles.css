@@ -90,6 +90,7 @@ img {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .address-link {
@@ -100,7 +101,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration-line: none;
-  padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {
