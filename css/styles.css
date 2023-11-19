@@ -24,6 +24,7 @@ img {
 }
 .header-container {
   display: flex;
+  margin: 0 auto;
 }
 .header-nav {
   color: #434455;
@@ -106,6 +107,9 @@ img {
 
 .main {
   background-color: #fff;
+}
+.section {
+  padding: 120px 0;
 }
 .hero-section {
   background-color: #2e2f42;
