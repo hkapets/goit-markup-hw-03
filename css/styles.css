@@ -12,6 +12,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 1158px;
@@ -24,7 +26,6 @@ img {
 }
 .header-container {
   display: flex;
-  margin: 0 auto;
 }
 .header-nav {
   color: #434455;
@@ -146,10 +147,6 @@ img {
 .order-button:focus {
   background-color: #404bbf;
 }
-.benefits-section {
-  background-color: #fff;
-  padding: 120px 0;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -181,10 +178,6 @@ img {
 .benefits-item-text {
   color: #434455;
   line-height: 1.5;
-}
-.team-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
 }
 .team-title {
   color: #2e2f42;
@@ -220,9 +213,6 @@ img {
   color: #434455;
   line-height: 1.5;
   text-align: center;
-}
-.portfolio-section {
-  padding: 120px 0;
 }
 .portfolio-title {
   color: #2e2f42;
