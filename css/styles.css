@@ -10,7 +10,9 @@ ul,
 ol {
   list-style-type: none;
 }
-
+img {
+  display: block;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -53,7 +55,6 @@ ol {
 .header-nav-item {
   font-weight: 500;
   line-height: 1.5;
-  padding: 24px 0;
 }
 .header-nav-link {
   color: #2e2f42;
@@ -62,6 +63,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration-line: none;
+  padding: 24px 0;
 }
 .header-nav-link:hover {
   color: #404bbf;
@@ -102,7 +104,7 @@ ol {
   text-decoration-line: underline;
 }
 
-.main {
+main {
   background-color: #fff;
 }
 .hero-section {
